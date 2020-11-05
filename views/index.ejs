@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Index of Businesses</h1>
+        <a href="/blk/new">Create New business</a>
+        <ul>
+            <% for (let i = 0; i < business.length; i++) { %>
+                <li>
+                    <a href="/blk/<%= business[i].id %> ">
+                        <h3><%= business[i].name %> </h3>
+                        <img src="<%= business[i].image %>" alt="business image">
+                    </a>
+                    <form action="/blk/<%= business[i].id %>?_method=DELETE" method="POST">
+                        <input type="submit" name="DELETE" id="" value="DELETE">
+                    </form>
+                </li> 
+                <a href="/blk/<%= business[i].id %>/edit ">Edit</a>
+            <% } %> 
+        </ul>
+    </div>
+</body>
+</html>

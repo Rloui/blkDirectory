@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Page</title>
+</head>
+<body>
+    <h1>Edit Page</h1>
+    <form action="/blk/<%= selectBusiness.id %>?_method=PUT " method="POST">
+        Name: <input type="text" name="name" id="" value="<%= selectBusiness.name %>">
+        Location: <input type="text" name="location" id="" value="<%= selectBusiness.location %>">
+        Owners: <input type="text" name="owners" id="" value="<%= selectBusiness.owners %>">
+        Type: <input type="text" name="type" id="" value="<%= selectBusiness.type %>">
+        Email: <input type="text" name="email" id="" value="<%= selectBusiness.email %>">
+        Phone: <input type="text" name="phone" id="" value="<%= selectBusiness.phone %>">
+        Website: <input type="text" name="website" id="" value="<%= selectBusiness.website %>">
+        Image: <input type="text" name="image" id="" value="<%= selectBusiness.image %>">
+        Tags: <input type="text" name="tags" id="" value="<%= selectBusiness.tags %>">
+        <input type="submit" name="PUT" value="Edit Your Business">
+    </form>
+</body>
+</html>
