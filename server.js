@@ -19,6 +19,9 @@ const PORT = process.env.PORT || 3000
 // Use Controller
 app.use('/blk', businessController)
 
+app.use(express.static('public'))
+
+
 // ************
 // Globl Configuration
 // ************
@@ -42,7 +45,7 @@ db.on('open' , ()=>{})
 // Connection Error/Success
 // Define callback functions for various events
 db.on('error', (err) => console.log(err.message + ' is mongod not running?'))
-db.on('connected', () => console.log('mongo connected: ', mongoURI))
+db.on('connected', () => console.log('mongo connected: ', MONGODB_URI))
 db.on('disconnected', () => console.log('mongo disconnected'))
 
 

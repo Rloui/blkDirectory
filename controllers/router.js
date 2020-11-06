@@ -22,8 +22,6 @@ router.use(methodOverride('_method'))
 router.use(express.urlencoded({ extended: false }))
 router.use(express.json())
 
-//use public folder for static assets
-router.use(express.static('public'))
 // ************************************************
 // Routes
 // ************************************************
