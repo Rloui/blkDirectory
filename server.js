@@ -23,7 +23,7 @@ app.use(express.static('public'))
 
 
 // ************
-// Globl Configuration
+// Globl Configuration ENV
 // ************
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/' + 'business'
 const db = mongoose.connection

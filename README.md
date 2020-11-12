@@ -1,4 +1,4 @@
-Heroku: https://blkdirectory.herokuapp.com/blk/
+Heroku: https://blkdirectory.herokuapp.com/blk
 
 Technologies used : 
 JavaScript, MongoDB, Mongoose, Express, Node.js, Heroku, Git, Github,CSS, HTML5, Bootstrap
