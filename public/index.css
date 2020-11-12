@@ -2,3 +2,10 @@ img {
     width: 500px;
     height: 400px;
 }
+
+.jumbotron {
+    background-image: url('https://media2.fdncms.com/rochester/imager/u/original/11853501/blackownedbusiness.jpg');
+    /* background-image: url('https://previews.123rf.com/images/fizkes/fizkes1901/fizkes190100482/116455916-five-friends-drinking-coffee-eating-pizza-at-cafe-diverse-people-laughing-tell-jokes-having-fun-in-p.jpg'); */
+    /* background-size: cover; */
+    color: azure;
+}

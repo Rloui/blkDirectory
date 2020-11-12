@@ -1,4 +1,4 @@
-
+Heroku: https://blkdirectory.herokuapp.com/blk/
 
 Technologies used : 
 JavaScript, MongoDB, Mongoose, Express, Node.js, Heroku, Git, Github,CSS, HTML5, Bootstrap
@@ -13,7 +13,8 @@ Appraoch Taken:
 7. Deploy to up Heroku
 
 Unsolved Problems:
-There are a few design issues and user expreience issues the hardest thing for me was understanding the how this CRUD format can be implemented in a cool way with the design
+- There are a few design issues and user expreience issues the hardest thing for me was understanding the how this CRUD format can be implemented in a cool way with the design
+- Understand what should I attack first. The Design, the HTML elements, Css elements, CRUD, ect
 
 Notes to Myself:
 - develop a user and business account login and the sign in page
@@ -21,3 +22,4 @@ Notes to Myself:
 - develop a social media page where people can share their expreiences at these resturants
 - develop a place for people to leave reviews and ratings
 - develop a taging system for each business to create an organization system
+- create search functionality
