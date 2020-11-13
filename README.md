@@ -15,6 +15,8 @@ Appraoch Taken:
 Unsolved Problems:
 - I depoled my project on github.io and that created problems when I tried to push to heroku, so I hat to make a new repository on my github account thus losing my 30 + commits. But this did allow me to host my project on heroku
 
+- my previous repository https://github.com/Rloui/Rloui.github.io/tree/master/BlkBusinneses , if these are added to the commits on my current one it should come out to 30
+
 - There are a few design issues and user expreience issues the hardest thing for me was understanding the how this CRUD format can be implemented in a cool way with the design
 
 - Understand what should I attack first. The Design, the HTML elements, Css elements, CRUD, ect
