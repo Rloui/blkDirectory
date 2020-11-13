@@ -19,6 +19,7 @@ Unsolved Problems:
 
 - Understand what should I attack first. The Design, the HTML elements, Css elements, CRUD, ect
 
+- there was a problem with heroku, I used the wrong config var on heroku which created problems with heroku locating the server for my project
 Notes to Myself:
 - develop a user and business account login and the sign in page
 - develop the home landing page so that it does land on the index page first
