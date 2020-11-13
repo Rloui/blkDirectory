@@ -13,7 +13,10 @@ Appraoch Taken:
 7. Deploy to up Heroku
 
 Unsolved Problems:
+- I depoled my project on github.io and that created problems when I tried to push to heroku, so I hat to make a new repository on my github account thus losing my 30 + commits. But this did allow me to host my project on heroku
+
 - There are a few design issues and user expreience issues the hardest thing for me was understanding the how this CRUD format can be implemented in a cool way with the design
+
 - Understand what should I attack first. The Design, the HTML elements, Css elements, CRUD, ect
 
 Notes to Myself:
