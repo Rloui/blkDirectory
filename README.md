@@ -1,31 +1,32 @@
-Heroku: https://blkdirectory.herokuapp.com/blk
+# BLK Business Directory
 
-Technologies used : 
-JavaScript, MongoDB, Mongoose, Express, Node.js, Heroku, Git, Github,CSS, HTML5, Bootstrap
+Live Link to Project: https://blkdirectory.herokuapp.com/blk
 
-Appraoch Taken:
-1. Set up my MVC file structure
-2. Create my mongoDB Schema and seed file
-3. Populate the index page
-4. Create the delete funtionality
-5. Create the new page where user can add a business
-6. Create the update route so you can change the business info
-7. Deploy to up Heroku
+Application Summary:
+This appliaction stores and displays businesses. Each business has Full CRUD funtionality using node.js and mongodb.
 
-Unsolved Problems:
-- I depoled my project on github.io and that created problems when I tried to push to heroku, so I hat to make a new repository on my github account thus losing my 30 + commits. But this did allow me to host my project on heroku
+Technologies used :
+* JavaScript
+* Embedded JavaScript
+* MongoDB
+* Mongoose
+* Express.js
+* Node.js
+* CSS
+* HTML5
+* Bootstrap
+* Heroku
+* MVC Architcture
+* Git
+* Github
 
-- my previous repository https://github.com/Rloui/Rloui.github.io/tree/master/BlkBusinneses , if these are added to the commits on my current one it should come out to 30
+Problems Encountered:
+- it was difficult understanding which aspect of the project I should develop first, the visual design, backend, front end, or mid ect...
+- when implementing CRUD functionality it was difficult designing these features in HTML and CSS with the user experience in mind
+- when deploying my project I was not able to deply this project to heroku because it was first deployed via github.io which conflicted with heroku
+- I encountered a problem with heroku that did not allow my app to behosted live, I used the wrong config var on heroku which created problems with heroku locating the correct server for my project
 
-- There are a few design issues and user expreience issues the hardest thing for me was understanding the how this CRUD format can be implemented in a cool way with the design
-
-- Understand what should I attack first. The Design, the HTML elements, Css elements, CRUD, ect
-
-- there was a problem with heroku, I used the wrong config var on heroku which created problems with heroku locating the server for my project
-Notes to Myself:
-- develop a user and business account login and the sign in page
-- develop the home landing page so that it does land on the index page first
-- develop a social media page where people can share their expreiences at these resturants
-- develop a place for people to leave reviews and ratings
-- develop a taging system for each business to create an organization system
-- create search functionality
+Future Developments:
+- redesign the application with added features
+- add user authentication and route user verification for each listing
+- add a taging system to sort and organize all businesses respectivly
